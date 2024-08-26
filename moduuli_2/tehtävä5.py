@@ -1,0 +1,10 @@
+leiviskät = input("Anna leiviskät.\n")
+naulat = input("Anna naulat.\n")
+luodit = input("Anna luodit.\n")
+
+leiviskät = float((13.3 * 32 * 20) * float(leiviskät))
+naulat = float((13.3 * 32) * float(naulat))
+luodit = float(13.3 * float(luodit))
+kilot = int((leiviskät + naulat + luodit) / 1000)
+grammat = float((leiviskät + naulat + luodit) - (kilot * 1000))
+print("Massa nykymittojen mukaan:\n" + str(kilot) + " kilogrammaa ja " + str(grammat) + " grammaa.")
