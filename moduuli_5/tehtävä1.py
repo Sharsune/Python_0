@@ -1,6 +1,5 @@
 import random
 
-
 nopat = input("Anna noppien määrä:")
 nopat = int(nopat)
 summa = 0

@@ -1,5 +1,3 @@
-from operator import truediv
-
 luvut = []
 c = 0
 luku = int(input("Anna uusi luku.\n"))
